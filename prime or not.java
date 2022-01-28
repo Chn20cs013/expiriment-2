@@ -1,8 +1,11 @@
+import java.util.Scanner;
 public class Main {
 
   public static void main(String[] args) {
 
-    int num = 29;
+    int num ;
+    Scanner obj=new Scanner(System.in);
+    int num=obj.nextInt();
     boolean flag = false;
     for (int i = 2; i <= num / 2; ++i) {
       // condition for nonprime number

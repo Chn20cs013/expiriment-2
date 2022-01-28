@@ -5,6 +5,7 @@ public class Armstrong {
 
         int number , originalNumber, remainder, result = 0;
         Scanner obj=new Scanner;
+        int number=obj.nextInt();
 
         originalNumber = number;
 
